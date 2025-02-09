@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Schedule a Visit - Tulsi Academy</title>
+    <link rel="stylesheet" href="/style.css" />
+</head>
+<body>
+    <nav class="navbar">
+        <div class="logo">Tulsi Academy</div>
+        <div class="nav-links">
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="academics.html">Academics</a>
+            <a href="contact.html">Contact</a>
+            <button class="cta-button">Apply Now</button>
+        </div>
+        <div class="mobile-menu-btn">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </nav>
+
+    <main>
+        <section class="page-header schedule-header">
+            <h1>Schedule a Visit</h1>
+            <p class="header-subtitle">Experience Tulsi Academy First-hand</p>
+        </section>
+
+        <section class="schedule-page">
+            <div class="schedule-container">
+                <div class="schedule-info">
+                    <h2>Visit Our Campus</h2>
+                    <p>We invite you to experience our vibrant campus atmosphere and learn more about our programs. During your visit, you will:</p>
+                    <ul class="visit-features">
+                        <li>Tour our state-of-the-art facilities</li>
+                        <li>Meet with faculty members</li>
+                        <li>Observe classes in session</li>
+                        <li>Learn about admission process</li>
+                    </ul>
+                </div>
+
+                <form class="schedule-form">
+                    <div class="form-group">
+                        <label for="name">Full Name</label>
+                        <input type="text" id="name" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="email">Email Address</label>
+                        <input type="email" id="email" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="phone">Phone Number</label>
+                        <input type="tel" id="phone" required>
+                    </div>
+                    
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="date">Preferred Date</label>
+                            <input type="date" id="date" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="time">Preferred Time</label>
+                            <select id="time" required>
+                                <option value="">Select Time</option>
+                                <option value="morning">9:00 AM - 11:00 AM</option>
+                                <option value="afternoon">2:00 PM - 4:00 PM</option>
+                            </select>
+                        </div>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="participants">Number of Visitors</label>
+                        <input type="number" id="participants" min="1" max="5" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="message">Additional Notes</label>
+                        <textarea id="message" rows="4"></textarea>
+                    </div>
+
+                    <button type="submit" class="cta-button">Confirm Visit</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>Tulsi Academy</h3>
+                <p>Shaping Future Leaders</p>
+            </div>
+            <div class="footer-section">
+                <h3>Quick Links</h3>
+                <a href="index.html">Home</a>
+                <a href="about.html">About</a>
+                <a href="academics.html">Academics</a>
+                <a href="contact.html">Contact</a>
+            </div>
+            <div class="footer-section">
+                <h3>Follow Us</h3>
+                <div class="social-links">
+                    <a href="#">Facebook</a>
+                    <a href="#">Twitter</a>
+                    <a href="#">Instagram</a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2025 Tulsi Academy. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script type="module" src="/main.js"></script>
+</body>
+</html>
